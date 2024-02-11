@@ -34,3 +34,18 @@ Obs: o código da tabela a cima foi executado no MySql Workbench 8.0 CE, no qual
     private static final String PASS = "";
     
     5 - Agora só executar o programa e utilizar.
+
+## Telas do Programa:
+
+#Tela Inicial
+<div align="center">
+<img src="https://github.com/gustavocarmomendes/Fish-sale-Project/assets/112448190/da057660-58e8-4cc5-afff-a9241a29155b" width="450px" />
+</div
+
+#Tela de Alteração
+<div align="center">
+<img src="https://github.com/gustavocarmomendes/Fish-sale-Project/assets/112448190/a7c8c5d0-921e-4484-8fe2-3abb32f3c8c5" width="450px" />
+</div
+
+#OBS:
+AS INFORMAÇÕES DAS VENDAS SÓ SERÃO MOSTRADAS NA TABELA APÓS CLICAR EM PESQUISAR, POIS O MESMO IRÁ LISTAR TODOS AS VENDAS QUE FORAM FEITAS.
