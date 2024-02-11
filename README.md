@@ -1,4 +1,4 @@
-## Fish sale Project Version 1.0
+## Fish sale Project / Version 1.0
  
 Projeto realizado no intuito de aprender outras coisas que o Java Swing proporciona, como por exemplo o JComboBox e JSpinner no qual foi utilizado neste projeto, foi desenvolvido em Java Maven utilizando JavaSwing e API JDBC para fazer a conexão com o Banco de Dados MySql.
 
