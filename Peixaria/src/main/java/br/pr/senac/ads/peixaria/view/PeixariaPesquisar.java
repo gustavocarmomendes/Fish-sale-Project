@@ -25,6 +25,7 @@ public class PeixariaPesquisar extends javax.swing.JDialog {
     public PeixariaPesquisar(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
+        listarDados();
     }
 
     String codigoPrimario = null;
@@ -90,6 +91,7 @@ public class PeixariaPesquisar extends javax.swing.JDialog {
             }
         });
 
+        jTableLista.setFont(new java.awt.Font("Verdana", 1, 12)); // NOI18N
         jTableLista.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null, null},
@@ -493,7 +495,7 @@ public class PeixariaPesquisar extends javax.swing.JDialog {
 
     private void jButtonVenderActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonVenderActionPerformed
         dispose();
-        Peixaria dialog = new Peixaria(new javax.swing.JFrame(), true);
+        PeixariaHome dialog = new PeixariaHome(new javax.swing.JFrame(), true);
         dialog.setVisible(true);
     }//GEN-LAST:event_jButtonVenderActionPerformed
 
